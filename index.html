@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>ALEX</title>
+    <meta name="description" content="井底之蛙不知大海之宽阔，却知晓天空之蓝！">
+    <meta name="keywords" content="Alex,alex,个人主页,程序员">
+    <link rel="icon" type="image/ico" href="https://s1.ax1x.com/2020/10/31/BasAsA.png">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+
+</head>
+
+<body>
+    <div id="main" class="container">
+        <div class="row my-card justify-content-center">
+            <div class="col-lg-4 photo-bg"></div>
+            <div class="col-lg-8 card">
+                <h1>Hi，我是Alex</h1>
+                <h2>井底之蛙不知大海之宽阔，却知晓天空之蓝！——《知晓天空之蓝的人啊》
+                </h2>
+                <p>
+                    2021级物联网工程专业本科生，喜欢科技及ACGN文化，同时还喜欢视频创作。
+                    因为热爱，所以坚持！
+                </p>
+
+                <p>FIND ME</p>
+                <div class="row">
+                    <button id="kaygb-blog" class="btn btn-primary col-lg-4">BANGUIMI</button>
+                    <a href="https://space.bilibili.com/73625026/bangumi" id="kaygb-blog-a" target="_blank" class="btn btn-primary col-lg-4">BANGUIMI</a>
+                    <a href="http://42.193.126.33/" target="_blank" class="btn btn-secondary col-lg-4">BLOG</a>
+                    <a href="https://space.bilibili.com/73625026" target="_blank" id="kaygb-mail-a" class="btn btn-success col-lg-4">视频</a>
+                    <button id="kaygb-mail" class="btn btn-success col-lg-4">视频</button>
+                </div>
+
+
+                <h4 class="mt-4">Others</h4>
+                <ul class="social mt-1">
+                    <li><a href=""><i class="fab fa-weibo " aria-hidden="true"></i></a></li>
+                    <li><a href="https://github.com/"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+                    <li><a href="https://t.me/Ra_Alex233"><i class="fab fa-telegram" aria-hidden="true"></i></a></li>
+                    <li><a href="https://twitter.com/RaAlex233"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fab fa-zhihu" aria-hidden="true"></i></a></li>
+                </ul>
+                <footer>
+                    <p>Copyright 2018-2022  <a href="http://alexspace.xyz/" target="_blank">Alex</a> 
+                        
+                    </p>
+                    </p>
+
+                </footer>
+            </div>
+        </div>
+
+    </div>
+    <div id="aplayer" class="aplayer" data-order="random" data-id="5313474629" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-volume="0.8"></div>
+    <!-- aplayer -->
+
+
+
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js"></script>
+    <!-- end_aplayer -->
+    <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script defer src="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/kaygb/kaygb@master/layer/layer.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/kaygb/kaygb@master/js/v3.js"></script>
+    <script>
+        //弹出一个页面层
+        $('#kaygb-blog').on('click', function() {
+            layer.open({
+                type: 2,
+                title: 'BANGUMI',
+                shadeClose: true,
+                shade: false,
+                maxmin: true, //开启最大化最小化按钮
+                area: ['90%', '100%'],
+                content: 'https://space.bilibili.com/73625026/bangumi'
+            });
+        });
+        $('#kaygb-mail').on('click', function() {
+            layer.open({
+                type: 2,
+                title: 'Alex',
+                shadeClose: true,
+                shade: false,
+                maxmin: true, //开启最大化最小化按钮
+                area: ['90%', '100%'],
+                content: 'https://space.bilibili.com/73625026'
+            });
+        });
+    </script>
+
+</html>
